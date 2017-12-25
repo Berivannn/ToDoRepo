@@ -6,11 +6,12 @@ using System.Web.Mvc;
 
 namespace ToDo.Controllers
 {
-    public class HomeController : Controller
+    public class IletisimController : Controller
     {
+        // GET: Iletisim
         public ActionResult Index()
         {
             return View();
-        } 
+        }
     }
 }
